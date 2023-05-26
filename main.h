@@ -9,5 +9,5 @@
 
 /******** functions ********/
 int _putchar(char c);
-int exe_cmd(char ** cmds, char *data, char **argv);
+int exe_cmd(char **cmds, char *data, char **argv);
 #endif

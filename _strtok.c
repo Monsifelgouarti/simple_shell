@@ -11,7 +11,7 @@ char *_strtok(char *str, char *delim)
 
 	if (!str)
 		str = ptr;
-	if(!str)
+	if (!str)
 		return (NULL);
 
 	while (1)

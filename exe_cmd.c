@@ -1,11 +1,12 @@
 #include "main.h"
 /**
  * exe_cmd - execute commands
- * @argc: number of arguments passed to the program
- * @argv: list of arguments passed to the program
- * Return: -1 if cmd NULL, cmd executed success 1, on failure 0
+ * @cmds: command to execute
+ * @data: input of the user
+ * @argv: a list of strings
+ * Return: 1 if execution success else 0
  */
-int exe_cmd(char ** cmds, __attribute__((unused)) char *data, char **argv)
+int exe_cmd(char **cmds, __attribute__((unused)) char *data, char **argv)
 {
 	if (*cmds == NULL)
 		return (-1);

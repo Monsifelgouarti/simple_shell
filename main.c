@@ -16,7 +16,7 @@ int main(int argc, char **argv)
 	while (cond)
 	{
 		count++;
-		cmds = malloc(sizeof(char*));
+		cmds = malloc(sizeof(char *));
 		*cmds = malloc(sizeof(char) * 1024);
 		if (isatty(STDIN_FILENO))
 			printf("$ ");
